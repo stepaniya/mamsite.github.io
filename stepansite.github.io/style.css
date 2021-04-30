@@ -23,13 +23,13 @@ body a{
 	width: 100%;
 	bottom: 0%;
 }
-@media(max-width: 800px){
-	#download{
-		left:20%;
-	}
-}
 @media(max-width: 1500px){
 	#download{
 		left:32%;
+	}
+}
+@media(max-width: 800px){
+	#download{
+		left:20%;
 	}
 }
