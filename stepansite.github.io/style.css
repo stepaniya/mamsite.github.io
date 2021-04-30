@@ -23,7 +23,7 @@ body a{
 	width: 100%;
 	bottom: 0%;
 }
-@media(max-width: 810px){
+@media(max-width: 300px){
 	#download{
 		left:20%;
 	}
