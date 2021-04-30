@@ -18,10 +18,51 @@ body a{
 	border-radius: 40px;
 	min-width: 230px;
 	text-decoration: none;
+	box-shadow: 5px 10px 20px #f29202;
 }
 #disqus_thread{
 	width: 100%;
 	bottom: 0%;
+}
+#white{
+	position: absolute;
+	left: 0;
+	top: -300px;
+	background-color: #fff;
+	height: 100px;
+	width: 50px;
+	border-radius: 70px;
+	box-shadow: 50px 400px 50px #fff;
+}
+#white2{
+	position: absolute;
+	left: 700px;
+	top: -300px;
+	background-color: #fff;
+	height: 100px;
+	width: 200px;
+	border-radius: 40px;
+	box-shadow: 50px 400px 50px #fff;
+}
+#white3{
+	position: absolute;
+	left: 340px;
+	top: -300px;
+	background-color: #fff;
+	height: 100px;
+	width: 100px;
+	border-radius: 100%;
+	box-shadow: 50px 800px 50px #fff;
+}
+#white4{
+	position: absolute;
+	left: 800px;
+	top: -900px;
+	background-color: #fff;
+	height: 400px;
+	width: 550px;
+	border-radius: 100%;
+	box-shadow: 50px 1200px 50px #fff;
 }
 @media(max-width: 800px){
 	#download{
