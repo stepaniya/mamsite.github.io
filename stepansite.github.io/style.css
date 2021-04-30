@@ -1,0 +1,29 @@
+body{
+   background-color: #000;
+   margin: 0;
+}
+body a{
+	color: #000;
+}
+#download{
+	position: relative;
+	top:5%;
+	left:40%;
+	width:15%;
+	height:5%;
+	background-color: #fff;
+	color:#000;
+	z-index: 1000;
+	transition-duration: 1s;
+	text-align: center;
+	border-radius: 40px;
+	text-decoration: none;
+}
+#download:hover{
+	text-decoration: underline;
+	background-color: #f29202;
+}
+#disqus_thread{
+	width: 100%;
+	bottom: 0%;
+}
