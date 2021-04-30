@@ -25,11 +25,11 @@ body a{
 }
 @media(max-width: 500px){
 	#download{
-		left:20%;
+		left:12%;
 	}
 }
 @media(max-width: 800px){
 	#download{
-		left:30%;
+		left:32%;
 	}
 }
