@@ -11,17 +11,13 @@ body a{
 	left:40%;
 	width:15%;
 	height:5%;
-	background-color: #fff;
+	background-color: #f29202;
 	color:#000;
 	z-index: 1000;
-	transition-duration: 1s;
 	text-align: center;
 	border-radius: 40px;
+	min-width: 100px;
 	text-decoration: none;
-}
-#download:hover{
-	text-decoration: underline;
-	background-color: #f29202;
 }
 #disqus_thread{
 	width: 100%;
