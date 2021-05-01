@@ -1,15 +1,16 @@
+@font-face{
+	font-family: font1;
+	src:url("1.ttf");
+}
 body{
    background-color: #000;
    margin: 0;
 }
-body a{
-	color: #000;
-}
 #download{
 	position: relative;
-	top:5%;
+	top:6%;
 	left:40%;
-	width:15%;
+	width:18%;
 	height:5%;
 	background-color: #f29202;
 	color:#000;
@@ -19,6 +20,22 @@ body a{
 	min-width: 230px;
 	text-decoration: none;
 	box-shadow: 5px 10px 20px #f29202;
+	border: 3px #fc5203 solid;
+	transition-duration: 3s;
+	font-family: font1;
+}
+#download a{
+	text-decoration: none;
+	color: #000;
+}
+#download:hover #thx{
+	top: 30%;
+}
+#thx{
+	left: 40%;
+	position: absolute;
+	top: -100px;
+	color: green;
 }
 #disqus_thread{
 	width: 100%;
