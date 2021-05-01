@@ -85,3 +85,8 @@ body{
 		left:20%;
 	}
 }
+@media(max-width: 1200px){
+	#download{
+		left:40%;
+	}
+}
